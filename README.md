@@ -80,8 +80,8 @@ The `db.json` file stores the mock data locally to simulate a real backend durin
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/react-app.git
-   cd react-app
+   [git clone https://github.com/yourusername/react-app.git](https://github.com/bharathDatti/AnchorAudit.git)
+  
 
 
 
