@@ -8,9 +8,9 @@ const HomePage = () => {
   return (
     <div className="bg-gray-100 font-sans">
       {/* Hero section */}
-      <section className="flex flex-col-reverse font-Parkinsans text-lg lg:flex-row items-center justify-between bg-gradient-to-r from-black to-[#2D3436] text-white text-center lg:text-left py-10 px-4 sm:px-6 md:px-8 lg:px-16 overflow-hidden">
-        <div className="lg:w-2/3  py-20 space-y-5 ">
-          <h1 className="text-3xl gradient-text sm:text-4xl md:text-3xl lg:text-5xl font-semibold bg-clip-text text-transparent bg-gradient-text bg-[length:200%_auto] animate-gradient-x">
+      <section className="flex flex-col-reverse font-Parkinsans text-lg lg:flex-row items-center justify-between bg-gradient-to-r from-black to-[#2D3436] text-white text-center lg:text-left py-10 px-4 sm:px-6 md:px-8 lg:px-1 overflow-hidden">
+        <div className=" p-9  py-19 pt-16 space-y-4 ">
+          <h1 className="text-3xl gradient-text sm:text-4xl md:text-3xl lg:text-7xl font-semibold bg-clip-text text-transparent bg-gradient-text bg-[length:200%_auto] animate-gradient-x">
             Find Expert Chartered Accountants <br /> Near You
           </h1>
           <TextRevealTW
@@ -19,7 +19,7 @@ const HomePage = () => {
  Let us connect you with the best professionals."
           />
           {/* NavLink container */}
-          <div className="flex justify-center py-5 lg:justify-start">
+          <div className="flex justify-center py-3 lg:justify-start">
             <NavLink
               to="/account"
               className=" button  relative px-6 py-3 rounded-lg text-white  hover:scale-95 transition-transform shadow-md"
