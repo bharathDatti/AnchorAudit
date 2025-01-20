@@ -10,7 +10,7 @@ const HomePage = () => {
       {/* Hero section */}
       <section className="flex flex-col-reverse font-Parkinsans text-lg lg:flex-row items-center justify-between bg-gradient-to-r from-black to-[#2D3436] text-white text-center lg:text-left py-10 px-4 sm:px-6 md:px-8 lg:px-1 overflow-hidden">
         <div className=" p-9  py-19 pt-16 space-y-4 ">
-          <h1 className="text-3xl gradient-text sm:text-4xl md:text-3xl lg:text-7xl font-semibold bg-clip-text text-transparent bg-gradient-text bg-[length:200%_auto] animate-gradient-x">
+          <h1 className="text-3xl gradient-text sm:text-4xl md:text-3xl lg:text-7xl xl:text-8xl font-semibold bg-clip-text text-transparent bg-gradient-text bg-[length:200%_auto] animate-gradient-x">
             Find Expert Chartered Accountant <br /> Near You
           </h1>
           <TextRevealTW
