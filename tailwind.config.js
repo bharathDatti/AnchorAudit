@@ -3,6 +3,21 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      screens: {
+        'xl-1920': '1920px', // Full HD for large desktops
+        'xl-1366': '1366px', // For smaller desktop and laptops
+        'xl-1440': '1440px', // Older MacBooks and laptops
+        'xl-1600': '1600px', // Common laptop resolution
+        'tablet-portrait': '768px', // iPad Mini
+        'tablet-landscape': '1280px', // Nexus 7, etc.
+        'tablet-large': '1200px', // Larger tablets in landscape
+        'sm-375': '375px', // iPhone 6/7/8 Portrait
+        'sm-375-x': '375px', // iPhone X Portrait
+        'sm-414': '414px', // iPhone XR/11/12 Portrait
+        'sm-360': '360px', // Android 5.5-inch Portrait
+        'sm-414-s': '414px', // Samsung Galaxy S8/S9
+        'sm-1080': '1080px', // Flagship Android in portrait
+      },
       fontFamily: {
         Parkinsans: ['Parkinsans', 'sans-serif'],
       },
